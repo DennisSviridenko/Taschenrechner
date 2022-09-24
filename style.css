@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+
+
+#button_submit{
+    grid-column: 0;
+    grid-row: 0;
+    color: black;;
+    background-color: green;
+}
+
+#jo{
+    grid-row: 0;
+    grid-column: 1;
+    
+}
