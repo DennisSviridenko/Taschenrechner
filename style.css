@@ -1,17 +1,35 @@
 body{
     background-color: black;
+    display: grid;
+
 }
 
 
 #button_submit{
-    grid-column: 0;
-    grid-row: 0;
     color: black;;
     background-color: green;
 }
 
 #jo{
-    grid-row: 0;
-    grid-column: 1;
-    
+    width: 392px;
 }
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.wrapper{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+
+
+
+
